@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/tasks";
+const API = "https://your-backend-name.onrender.com/api/tasks";
 
 export const getTasks = () => axios.get(API);
 export const addTask = (data) => axios.post(API, data);
